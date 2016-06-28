@@ -1,0 +1,198 @@
+@media screen and (max-width: 768px){
+
+	.icono-menu{
+		display:block;
+		position: absolute;
+		top:5px;
+		right: 0;
+		margin-right: 20px;
+		font-size: 2.3rem;
+		color:#409fde;
+	}
+
+	.menu-arriba{
+		display:none;
+	}
+
+	#menu{
+		position: fixed;
+		height: 60px;
+		margin-top: -40px;
+		z-index: 90;
+	}
+
+	.logo1{
+		display: none;
+	}
+
+	.logo2{
+		display: block;
+		top: 5px;
+	
+	}
+
+	
+	#menu > ul{
+		display: none;
+		float: none;
+		margin-top: 50px;
+
+		-webkit-transition: 0.5s;
+		-moz-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+	
+	#menu > ul > li{
+		display: block;
+		text-align: center;
+		border-bottom: 1px solid rgba(146,203,199, 0.2);
+		background-color: #fff;	
+		padding: 23px 50px;
+
+		-webkit-transition: 0.5s;
+		-moz-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+	
+
+}
+
+
+/*************************************/
+/********* CONTENEDOR INICIO *************/
+/*************************************/
+
+@media screen and (max-width: 768px){
+	.principal{
+		height: 100vh;
+		
+		background: url(../images/psicologa-movil.jpg)no-repeat fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+			
+	}
+	
+	.principal > h2{		
+		top:35%;		
+	}
+
+	.principal > h1{
+		top:52%;
+
+		font-size: 1.4rem;
+	}
+
+	.principal > h1 > span{
+		font-size: 1.3rem;
+	}
+}
+
+
+/*********************************************/
+/************ MITAD BENEFICIOS *************/
+/********************************************/
+
+@media screen and (max-width: 768px){
+	.beneficios{
+		height:60vh;
+	}
+	.beneficios  h3{
+		position: relative;
+		top:17%;
+		font-size: 1rem;
+		text-align: justify;
+	}
+
+	.beneficios > div{
+		position: relative;
+		top:37%;
+		text-align: center;
+	}
+
+}
+
+
+/********************************************/
+/*************** ACERCA DE ******************/
+/*********************************************/
+@media screen and (max-width: 768px){
+	.acerca{
+		width: 100%;
+		height: 60%;
+
+		background: url(../images/back-movil.jpg)no-repeat fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+
+
+	.float-right{
+		float: none;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.container-fluid{
+		text-align: center;
+	}
+
+	.contacto form > input{
+		display: block;
+		width: 100%;
+		height: 45px;
+
+		-webkit-appearance: none;
+		-webkit-border-radius: 0;
+		border:1px solid #cbcbcb;
+	}
+
+	.contacto form > textarea{
+		display: block;
+		width: 100%;
+		height: 105px;
+		margin-top: 15px;
+		-webkit-appearance: none;
+		-webkit-border-radius: 0;
+		border:1px solid #cbcbcb;
+	}
+
+	.contacto form > button{
+		width: 100%;
+		height: 50px;
+	}
+
+}
+
+
+/**********************************************/
+/***************** CONTACTO *******************/
+/*********************************************/
+@media screen and (max-width: 768px){
+	.contacto form{
+		float:none;
+	}
+}
+
+
+/****************************************/
+/************* FOOTER ***********************/
+/****************************************/
+@media screen and (max-width: 768px){
+	footer{
+
+		padding-bottom: 50px;
+	}
+
+
+	.firma{
+		margin-top: 30px;
+	}	
+
+}

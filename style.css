@@ -1,0 +1,471 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	font-family: 'Montserrat', Sans-serif;
+	font-size: 16px;
+}
+
+
+.menu-arriba{
+	
+	width: 100%;
+	height: 40px;
+	background: #fff;
+
+	border-bottom: 1px solid #e6e6e6;
+
+	position: absolute;	
+}
+
+.menu-arriba > ul{
+	margin-top:10px;
+	float: right;
+	margin-right: 20px;	
+}
+
+.menu-arriba > ul > li{
+	display: inline-block;
+	margin-right: 10px; 
+}
+
+.menu-arriba > ul > li >a{
+	color:black;
+}
+
+.icon-facebook:hover{
+	color:#3b5998;
+}
+
+.icon-twitter:hover{
+	color:#58aeea;
+}
+
+.icon-gplus:hover{
+	color:#dd4c3f;
+}
+
+/****************************************/
+/************ MENU PRINCIPAL **************/
+/****************************************/
+
+header{
+	padding-top: 40px;
+}
+
+#menu{
+	width: 100%;
+	height: 62px;
+	background: #fff;
+	z-index: 90;
+
+}
+
+#menu > ul{	
+	float: right;
+}
+
+#menu > ul >li{
+	display: inline-block;
+	padding: 15px 10px;
+
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+
+.menu-detected{
+	background: #409fde;
+	color:#fff;	
+
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+#menu > ul >li > a{
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+#menu > ul >li > a:hover{
+	background: #409fde;
+	color:#fff;
+}
+
+
+
+
+.logo1{
+	width: 61px;
+	height: 50px;
+
+	position: absolute;
+	top: 45px;
+	left: 40px;
+
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.logo2{
+	display: none;
+	width: 57px;
+	height: 47px;
+
+	position: absolute;
+	top: 45px;
+	left: 40px;
+
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.menu{
+	width: 100%;
+	height: 62px;
+	background: #fff;
+	position: fixed;
+	top:0px;
+
+	border-bottom: 1px solid #e6e6e6;
+
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+
+	z-index: 90;
+}
+
+.menu > ul{
+	float: right;
+}
+
+.menu > ul >li{
+	display: inline-block;
+	padding: 15px 10px;
+}
+
+/***** MENU RESPONSIVE **********/
+.icono-menu{
+
+	display:none;
+
+}
+/*************************************/
+/********* CONTENEDOR INICIO *************/
+/*************************************/
+
+.principal{
+	width: 100%;
+	height: 65vh;
+
+	background: url(images/psicologa.jpg)no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	text-align: center;
+}
+
+.principal > h2{
+	position: absolute;
+	top:40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	background: #409fde;
+	color:#fff;
+	padding:15px 20px;
+	}
+
+.principal > h1{
+	position: absolute;
+	top:52%;
+	left: 0;
+	right: 0;
+	
+	color:#409fde;
+	color:#fff;
+	text-shadow: 1px 0px 6px rgba(150, 150, 150, 1);
+}
+
+.principal > h1 >span{
+	font-size: 2rem;
+}
+
+
+/****************************************/
+/*************** SERVICIOS *************/
+/**************************************/
+
+
+.servicios{
+	width: 100%;
+	height: 60%;
+
+	background: #fff;
+	padding: 0px 20px;
+	padding-bottom: 50px;
+}
+
+.servicios > h2{
+	text-align: center;
+	padding-top: 30px;
+
+}
+
+
+.servicios  img{
+	width: 80px;
+	height: 80px;
+}
+
+.servicios p{
+	text-align: justify;
+}
+
+.servicios > div{
+	padding-top: 30px;
+	text-align: center;
+}
+
+.iconos-servicios{
+	font-size: 2rem;
+}
+
+.info-servicios{
+padding-top:30px;
+border-radius: 10px;
+margin-top: 30px;
+
+-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.info-servicios:hover{
+	background: #066d8b;
+	color:#fff;
+
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+
+/*********************************************/
+/************ MITAD BENEFICIOS *************/
+/********************************************/
+
+.beneficios{
+	width: 100%;
+	height:50vh;
+
+	background: url(images/relax.jpg)no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+.beneficios  h3{
+	position: relative;
+	top:30%;
+
+	color:#fff;
+	text-align: center;
+	padding: 0px 20px;
+}
+
+.beneficios > div{
+	position: relative;
+	top:50%;
+	text-align: center;
+}
+
+.beneficios > div > a{
+
+	border:1px solid #fff;
+	padding:15px 25px;
+
+	text-decoration: none;
+
+	color:#fff;
+
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+
+}
+
+.beneficios  a:hover{
+	background: #409fde;
+	color:#fff;
+	text-decoration: none;
+	border: none;
+
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+
+
+/********************************************/
+/*************** ACERCA DE ******************/
+/*********************************************/
+
+.acerca{
+	width: 100%;
+	height: 60%;
+
+	background: url(images/back.jpg)no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	padding-top: 10px;
+	padding-bottom: 50px;
+
+}
+
+.acerca > h2{
+	text-align: center;
+	padding: 30px 0px;
+}
+
+.acerca img{
+	border-radius: 210px;
+}
+
+.float-right{
+	text-align: center;
+	float: right;
+}
+
+.space{
+	padding-top: 20px;
+}
+
+
+/**********************************************/
+/***************** CONTACTO *******************/
+/*********************************************/
+
+.contacto{
+	width: 100%;
+	height: 90%;
+
+	padding-bottom: 80px;
+	
+	border-top: 1px solid rgba(64,159,222, 0.3);
+}
+
+.contacto > h2{
+	text-align: center;
+	padding: 30px 0px;
+}
+
+.contacto form{
+	float:right;
+}
+
+.contacto form > input{
+	display: block;
+	width: 400px;
+	height: 35px;
+	margin-top: 15px;
+}
+
+.contacto form > textarea{
+	display: block;
+	width: 400px;
+	height: 95px;
+	margin-top: 15px;
+}
+
+.contacto form > button{
+	margin-top: 10px;
+	width: 120px;
+	height: 40px;
+	
+	border: none;
+	background-color: rgba(64, 159, 222, 0.8);
+	color:#fff;
+
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.contacto form > button:hover{
+	background-color: #409fde;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.contacto i{
+	margin-left: 0;
+	color:#3a3a3a;
+}
+
+/****************************************/
+/************* FOOTER ***********************/
+/****************************************/
+
+footer{
+	width: 100%;
+	height: 180px;
+	background-color: #066d8b;
+
+	text-align: center;
+
+	padding-bottom: 20px;
+}
+
+footer p{
+	padding-top: 20px;
+	margin-left: 25px;
+	color:#fff;
+}
+
+footer i{
+	margin-top:50px;
+	text-align: center;
+	color:#fff;
+	font-size: 1.3rem;
+}
+
+.firma{
+	border-top: 1px solid #1d819e;
+	text-align: center;
+	margin-top: 60px;
+	padding-top: 10px;
+
+	font-size: 0.9rem;
+}
+
+.firma > a{
+	color:#2cafe5;
+}
