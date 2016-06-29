@@ -1,3 +1,6 @@
+
+    
+
 /* MENU RESPONSIVE */
 var contador = 0;
 
@@ -20,11 +23,24 @@ $( '#btn-menu' ).click(function() {
 });
 
 
-$( "nav > ul > li >a" ).click(function() {
+$(window).resize(function(){
+
+
+       $( "#menu > ul > li > a" ).click(function() {
+
+          if ($(window).width() <= 768) { 
   
-  $('#menu > ul').css('display', 'none');
+           $('#menu > ul').css('display', 'none');
+
+          }else{
+
+            $('#menu > ul').css('display', 'block');
+          }    
+
+        });
 
 });
+
 
 
 /** BARRA DE MENU APARECE */
@@ -33,7 +49,7 @@ $(document).ready(function(){
 
 			var y = $(this).scrollTop();
 			var ancho = $(window).width();
-
+    
 
 			if(y >= 40 && ancho >= 769){
 
